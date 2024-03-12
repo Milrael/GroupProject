@@ -1,3 +1,12 @@
+/* common styles */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
 @font-face {
     font-family: 'Angry';
     src: url(./fonts/Angry/Web-PS/Angry.woff2) format('woff2'), /* Modern Browsers */
@@ -21,6 +30,8 @@
     font-family: 'Roboto-SemiBold';
     src: url(./fonts/Roboto/Roboto-Medium.ttf);
 }
+/* common styles */
+
 .redText{
     color: #CF1013;
 }
