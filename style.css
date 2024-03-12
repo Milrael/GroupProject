@@ -1,26 +1,36 @@
 @font-face {
-	font-family: 'Angry-Regular';
-	src: url('./font/angry-regular.eot');
-	src: url('./font/angry-regular.eot?#iefix') format('embedded-opentype'),
-		url('./font/angry-regular.woff2') format('woff2'),
-		url('./font/angry-regular.woff') format('woff'),
-		url('./font/angry-regular.ttf') format('truetype'),
-		url('./font/angry-regular.svg#angry-regular') format('svg');
+    font-family: 'Angry';
+    src: url(./fonts/Angry/Web-PS/Angry.woff2) format('woff2'), /* Modern Browsers */
+        url(./fonts/Angry/Web-PS/Angry.otf) format('opentype'); /* Safari, Android, iOS */
+            font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(./fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url(./fonts/Roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-SemiBold';
+    src: url(./fonts/Roboto/Roboto-Medium.ttf);
 }
 .redText{
     color: #CF1013;
 }
 .Font{
     font-size: 40px;
-    font-family: "Angry-Regular";
+    font-family: 'Angry';
     text-align: right;
     padding-right: 80px;
 }
 .advertisement{
     height: 870px;
     width: 100%;
-}
-
-.advertisement_advantages{
-    grid-area:;
 }
