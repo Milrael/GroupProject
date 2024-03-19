@@ -258,7 +258,7 @@ body{
     height: 730px;
     margin: 0;
     padding: 0; 
-    background-color: rgb(0, 97, 100);
+    background-color: rgb(0, 97, 100,0);
 }
 
 .hat{
@@ -267,7 +267,7 @@ body{
     flex-direction: row;
 }
 
-.work_us{
+.work__us{
 
     font-family: 'Angry';
     font-size: 50px;
@@ -276,7 +276,7 @@ body{
     text-align: start;
 }
 
-.kompani_1{
+.kompani__1{
     display: flex;
     font-family:'Roboto-Regular';
     font-size: 20px;
@@ -289,23 +289,26 @@ body{
     justify-content: center;
     background-image: url(Ellipse\ 1.png);
 }
-.advantages_up{
+.advantages__up{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    padding-top: 43px;
+    gap: 50px;
 }
 
-.advantages_center{
+.advantages__center{
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding-top: 50px;
+    gap: 50px;
 }
 
-.red_val{
+
+.red__val{
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
@@ -316,7 +319,7 @@ body{
     background-color: rgba(207, 16, 19, 0.05);
 }
 
-.blue_val{
+.blue__val{
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
@@ -327,7 +330,7 @@ body{
     background-color: rgba(0, 85, 141, 0.05);
 }
 
-.advantages_up img{
+.advantages__up img{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -336,7 +339,7 @@ body{
 
 }
 
-.advantages_up p{
+.advantages__up p{
     font-family:'Roboto-Regular';
     font-size: 24px;
     height: 72px;
@@ -344,3 +347,22 @@ body{
     padding: 0;
     margin: 0;
 }
+
+.advantages__center img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+
+}
+
+.advantages__center p{
+    font-family:'Roboto-Regular';
+    font-size: 24px;
+    height: 72px;
+    width: 395px;
+    padding: 0;
+    margin: 0;
+}
+
