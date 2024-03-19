@@ -36,13 +36,13 @@ body{
     padding: 0;
 }
 
-.buy_car{
+.features{
     height: 638px;
     margin: 0;
     padding: 0; 
 }
 
-.perks{
+.section-title{
     font-family: 'Angry';
     font-size: 50px;
     margin: 0;
@@ -51,7 +51,7 @@ body{
     justify-content: start;
 }
 
-.red{
+.section-title__span .section-title__span_red{
     color: red;
 }
 
