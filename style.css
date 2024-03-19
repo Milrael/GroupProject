@@ -60,84 +60,37 @@ body{
     display: flex;
     flex-direction: column;
 }
-.up{
+.up, .down{
     display: flex;
     flex-direction: row;
     padding: 10px;
     gap: 40px;
 }
 
-.profit{
+.profit, .new, .Selection, .Warranties{
     display: flex;
     flex-direction: column;
     width: 553px;
     height: 180px;
     margin: 0;
-    background-image: url(val.png);
+    background-image: url(photo/val.png);
     text-align: center;
     justify-content: center;
 }
 
-.profit__title{
-    margin: 0;
-    padding: 0;
-    font-family: 'Angry';
-    font-size: 36px;
-    color: rgba(0, 85, 141, 1);
-}
-
-.profit__text{
-    margin: 0;
-    padding: 0;
-    font-family:'Roboto-Regular';
-    font-size: 16px;
-    width: 419px;
-    padding-left: 67px;
-    text-align: start;
-}
-
-.new{
-    display: flex;
-    flex-direction: column;
-    width: 553px;
-    height: 180px;
-    margin: 0;
-    background-image: url(val.png);
-    text-align: center;
-    justify-content: center;
-}
-
-.new__title{
-    margin: 0;
-    padding: 0;
-    font-family: 'Angry';
-    font-size: 36px;
-    color: rgba(0, 85, 141, 1);
-}
-
-.new__text{
-    margin: 0;
-    padding: 0;
-    font-family:'Roboto-Regular';
-    font-size: 16px;
-    width: 419px;
-    padding-left: 67px;
-    text-align: start;
-}
-
-.not__probeg{
+.not__probeg, .Auctions{
     display: flex;
     flex-direction: column;
     width: 553px;
     max-height: 212px;
     margin: 0;
     padding: 0;
-    background-image: url(val.png);
+    background-image: url(photo/val.png);
     text-align: center;
     justify-content: center;
 }
 
-.not__probeg__title{
+.up h1, .down h1{
     margin: 0;
     padding: 0;
     font-family: 'Angry';
@@ -145,104 +98,7 @@ body{
     color: rgba(0, 85, 141, 1);
 }
 
-.not__probeg__text{
-    margin: 0;
-    padding: 0;
-    font-family:'Roboto-Regular';
-    font-size: 16px;
-    width: 419px;
-    padding-left: 67px;
-    text-align: start;
-}
-
-.down{
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
-    gap: 40px;
-}
-
-.Auctions{
-    display: flex;
-    flex-direction: column;
-    width: 553px;
-    max-height: 212px;
-    margin: 0;
-    padding: 0;
-    background-image: url(val.png);
-    text-align: center;
-    justify-content: center;
-}
-
-.Auctions__title{
-    margin: 0;
-    padding: 0;
-    font-family: 'Angry';
-    font-size: 36px;
-    color: rgba(0, 85, 141, 1);
-}
-
-.Auctions__text{
-    margin: 0;
-    padding: 0;
-    font-family:'Roboto-Regular';
-    font-size: 16px;
-    width: 419px;
-    padding-left: 67px;
-    text-align: start;
-}
-
-.Selection{
-    display: flex;
-    flex-direction: column;
-    width: 553px;
-    height: 180px;
-    margin: 0;
-    padding: 0;
-    background-image: url(val.png);
-    text-align: center;
-    justify-content: center;
-}
-
-.Selection__title{
-    margin: 0;
-    padding: 0;
-    font-family: 'Angry';
-    font-size: 36px;
-    color: rgba(0, 85, 141, 1);
-}
-
-.Selection__text{
-    margin: 0;
-    padding: 0;
-    font-family:'Roboto-Regular';
-    font-size: 16px;
-    width: 419px;
-    padding-left: 67px;
-    text-align: start;
-}
-
-.Warranties{
-    display: flex;
-    flex-direction: column;
-    width: 553px;
-    height: 180px;
-    margin: 0;
-    padding: 0;
-    background-image: url(val.png);
-    text-align: center;
-    justify-content: center;
-}
-
-.Warranties__title{
-    margin: 0;
-    padding: 0;
-    font-family: 'Angry';
-    font-size: 36px;
-    color: rgba(0, 85, 141, 1);
-}
-
-.Warranties__text{
+.up p, .down p{
     margin: 0;
     padding: 0;
     font-family:'Roboto-Regular';
@@ -287,7 +143,7 @@ body{
     text-align: center;
     align-items: center;
     justify-content: center;
-    background-image: url(Ellipse\ 1.png);
+    background-image: url(photo/Ellipse\ 1.png);
 }
 .advantages__up{
     display: flex;
@@ -298,7 +154,7 @@ body{
     gap: 50px;
 }
 
-.advantages__center{
+.advantages__center, .advantages__down{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -306,7 +162,6 @@ body{
     padding-top: 50px;
     gap: 50px;
 }
-
 
 .red__val{
     display: flex;
@@ -330,7 +185,7 @@ body{
     background-color: rgba(0, 85, 141, 0.05);
 }
 
-.advantages__up img{
+.advantages__up img, .advantages__center img, .advantages__down img{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -339,7 +194,7 @@ body{
 
 }
 
-.advantages__up p{
+.advantages__up p, .advantages__center p, .advantages__down p{
     font-family:'Roboto-Regular';
     font-size: 24px;
     height: 72px;
@@ -347,22 +202,3 @@ body{
     padding: 0;
     margin: 0;
 }
-
-.advantages__center img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 60px;
-    width: 60px;
-
-}
-
-.advantages__center p{
-    font-family:'Roboto-Regular';
-    font-size: 24px;
-    height: 72px;
-    width: 395px;
-    padding: 0;
-    margin: 0;
-}
-
