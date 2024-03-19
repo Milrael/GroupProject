@@ -1,0 +1,90 @@
+body{
+    display: flex;
+    flex-direction: column;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.head{
+    margin: 0;
+    padding: 0;
+}
+
+.buy_car{
+    height: 638px;
+    margin: 0;
+    padding: 0; 
+    background-color: cadetblue;
+}
+
+.perks{
+    font-size: 90px;
+    margin: 0;
+}
+
+.red{
+    color: red;
+}
+
+.check_list{
+    display: flex;
+    flex-direction: column;
+}
+.up{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    gap: 40px;
+}
+
+.block_profit{
+    display: flex;
+    flex-direction: column;
+    width: 553px;
+    height: 180px;
+    margin: 0;
+    background-image: url(val.png);
+    text-align: center;
+    justify-content: center;
+}
+
+.profit{
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+}
+
+.profit_text{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    width: 419px;
+    padding-left: 110px;
+    text-align: start;
+}
+
+.block_new{
+    display: flex;
+    flex-direction: column;
+    width: 553px;
+    height: 180px;
+    margin: 0;
+    background-image: url(val.png);
+    text-align: center;
+    justify-content: center;
+}
+
+.new{
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+}
+
+.new_text{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
+    width: 419px;
+    padding-left: 110px;
+    text-align: start;
+}
