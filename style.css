@@ -93,28 +93,13 @@ body{
 
 /* Вторая часть Преимущества работы с нами*/
 
-.work_with_us{
-    height: 730px;
-    margin: 0;
-    padding: 0; 
-}
-
-.hat{
+.advantages-header{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
 }
 
-.work__us{
-
-    font-family: 'Angry';
-    font-size: 50px;
-    margin: 0;
-    padding: 0;
-    text-align: start;
-}
-
-.kompani__1{
+.advantages-header p{
     display: flex;
     font-family:'Roboto-Regular';
     font-size: 20px;
@@ -125,19 +110,13 @@ body{
     text-align: center;
     align-items: center;
     justify-content: center;
+    text-transform: uppercase;
     background-image: url(photo/Ellipse\ 1.png);
 }
-.advantages__up{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding-top: 43px;
-    gap: 50px;
-}
 
-.advantages__center, .advantages__down{
-    display: flex;
+.advantages-list{
+    display: grid;
+    grid: auto-flow / 1fr 1fr 1fr;
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -145,7 +124,7 @@ body{
     gap: 50px;
 }
 
-.red__val{
+.advantages-list_red, .advantages-list_blue{
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
@@ -153,21 +132,18 @@ body{
     border-radius: 100px;
     height: 132px;
     width: 553px;
+    gap: 15px;
+}
+
+.advantages-list_red{
     background-color: rgba(207, 16, 19, 0.05);
 }
 
-.blue__val{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
-    border-radius: 100px;
-    height: 132px;
-    width: 553px;
+.advantages-list_blue{
     background-color: rgba(0, 85, 141, 0.05);
 }
 
-.advantages__up img, .advantages__center img, .advantages__down img{
+.advantages-list img{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -176,10 +152,9 @@ body{
 
 }
 
-.advantages__up p, .advantages__center p, .advantages__down p{
+.advantages-list p{
     font-family:'Roboto-Regular';
     font-size: 24px;
-    height: 72px;
     width: 395px;
     padding: 0;
     margin: 0;
