@@ -1,3 +1,31 @@
+
+@font-face {
+    font-family: 'Angry';
+    src: url(./fonts/Angry/Web-PS/Angry.woff2) format('woff2'), /* Modern Browsers */
+        url(./fonts/Angry/Web-PS/Angry.otf) format('opentype'); /* Safari, Android, iOS */
+            font-style: normal;
+    font-weight: normal;
+    text-rendering: optimizeLegibility;
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(./fonts/Roboto/Roboto-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url(./fonts/Roboto/Roboto-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-SemiBold';
+    src: url(./fonts/Roboto/Roboto-Medium.ttf);
+}
+
+
+
+
 .page{
     margin: 40px;
 }
@@ -18,6 +46,7 @@
 
 .top{
     margin: auto;
+    font-size: 30px;
 }
 
 .info{
@@ -33,7 +62,7 @@
     display: flex;
     flex-direction: column;
     padding-right: 12px;
-    font-size: 21px;
+    font-size: 22px;
 }
 
 .category{
@@ -60,7 +89,7 @@ button{
     color: red;
     background: none;
     border: none;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .top-text{
@@ -71,10 +100,12 @@ button{
 .CATALOG{
     font-size: 70px;
     padding: 1%;
+    font-family: 'Angry';
 }
 
 .card-area{
     display: flex;
+    font-family: 'Roboto-Regular';
 }
 
 .red-arrows{
