@@ -1,3 +1,14 @@
+/*<<<<<<< HEAD
+=======
+/* common styles */
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+/*>>>>>>> main*/
 
 @font-face {
     font-family: 'Angry';
@@ -23,6 +34,7 @@
     src: url(./fonts/Roboto/Roboto-Medium.ttf);
 }
 
+/*<<<<<<< HEAD*/
 
 
 
@@ -112,3 +124,7 @@ button{
     margin-left: 50%;
     margin-top: 10%;
 }
+/*=======
+/* common styles 
+
+>>>>>>> main*/ 
