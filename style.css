@@ -1,3 +1,5 @@
+/*<<<<<<< HEAD
+=======
 /* common styles */
 *{
     margin: 0;
@@ -6,6 +8,7 @@
     text-decoration: none;
     color: black;
 }
+/*>>>>>>> main*/
 
 @font-face {
     font-family: 'Angry';
@@ -31,5 +34,97 @@
     src: url(./fonts/Roboto/Roboto-Medium.ttf);
 }
 
-/* common styles */
+/*<<<<<<< HEAD*/
 
+
+
+.page{
+    margin: 40px;
+}
+
+.card{
+    height: 10%;
+    width: 20%;
+    padding: 2%;
+}
+
+.card-content{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    border-radius: 30px;
+    border-top: 0px;
+}
+
+.top{
+    margin: auto;
+    font-size: 30px;
+}
+
+.info{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 12px;
+    font-size: 21px;
+}
+
+.info-right-column{
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 12px;
+    font-size: 22px;
+}
+
+.info__category{
+    color: gray;
+    margin: 10px;
+}
+
+.card-info{
+    display: flex;
+}
+.info-right-column__category{
+    width: 100%;
+    text-align: end;
+    margin: 10px;
+}
+
+.button-block{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+button{
+    color: red;
+    background: none;
+    border: none;
+    font-size: 18px;
+}
+
+.top-text{
+    display: flex;
+    flex-direction: column;
+}
+
+.CATALOG{
+    font-size: 70px;
+    padding: 1%;
+    font-family: 'Angry';
+}
+
+.card-area{
+    display: flex;
+    font-family: 'Roboto-Regular';
+}
+
+.red-arrows{
+    margin-left: 50%;
+    margin-top: 10%;
+}
+/*=======
+/* common styles 
+
+>>>>>>> main*/ 
