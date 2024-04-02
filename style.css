@@ -111,9 +111,11 @@
     margin-top: 85px;
 }
 
-.catalog__red-arrows{
-    margin-left: 50%;
-    margin-top: 10%;
+.catalog__redArrowblock{
+    display: flex;
+    margin-top: 56px;
+    justify-content: center;
+    margin-bottom: 110px;
 } 
 
 * {
