@@ -1,4 +1,5 @@
 
+
 *{
     margin: 0;
     padding: 0;
@@ -37,10 +38,6 @@
     margin: auto;
 }
 
-.catalog__card{
-    /* height: 10%;
-    width: 20%; */
-}
 
 .catalog__card-content{
     display: flex;
@@ -117,6 +114,144 @@
 .catalog__red-arrows{
     margin-left: 50%;
     margin-top: 10%;
+} 
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Первая часть Преимущества продажи японок*/
+.head{
+    margin: 0;
+    padding: 0;
+}
+
+.features{
+    height: 638px;
+    margin: 0;
+    padding: 0; 
+}
+
+.section-title{
+    font-family: 'Angry';
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+    text-align: start;
+    justify-content: start;
+}
+
+.section-title__span_red{
+    color: red;
+}
+
+.features-list{
+    display: grid;
+
+    padding-top: 68px;
+    gap: 40px;
+    grid: auto-flow / 1fr 1fr 1fr;
+}
+
+.features-item{
+    display: flex;
+    flex-direction: column;
+    width: 553px;
+    height: 180px;
+    margin: 0;
+    background-image: url(photo/val.png);
+    text-align: center;
+    justify-content: center;
+}
+
+.features-item h3{
+    margin: 0;
+    padding: 0;
+    font-family: 'Angry';
+    font-size: 36px;
+    color: rgba(0, 85, 141, 1);
+}
+
+.features-item p{
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto-Regular';
+    font-size: 16px;
+    width: 419px;
+    padding-left: 67px;
+    text-align: start;
+}
+
+/* Вторая часть Преимущества работы с нами*/
+
+.advantages-header{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+.advantages-header p{
+    display: flex;
+    font-family:'Roboto-Regular';
+    font-size: 20px;
+    width: 159px;
+    height: 159px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    background-image: url(photo/Ellipse\ 1.png);
+}
+
+.advantages-list{
+    display: grid;
+    grid: auto-flow / 1fr 1fr 1fr;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 68px;
+    gap: 50px;
+}
+
+.advantages-list_red, .advantages-list_blue{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100px;
+    height: 132px;
+    width: 553px;
+    gap: 15px;
+}
+
+.advantages-list_red{
+    background-color: rgba(207, 16, 19, 0.05);
+}
+
+.advantages-list_blue{
+    background-color: rgba(0, 85, 141, 0.05);
+}
+
+.advantages-list img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+
+}
+
+.advantages-list p{
+    font-family:'Roboto-Regular';
+    font-size: 24px;
+    width: 395px;
+    padding: 0;
+    margin: 0;
 }
 
 .auction__heading {
@@ -219,7 +354,9 @@
     align-items: center;
 }
 
-.auction__wrapper {
+.auction__wrapper, .advantages, .features  {
     max-width: 1760px;
     margin: auto;
+    padding-bottom: 100px;
 }
+
