@@ -1,4 +1,4 @@
-/* common styles */
+
 *{
     margin: 0;
     padding: 0;
@@ -6,7 +6,6 @@
     list-style: none;
     text-decoration: none;
 }
-/*>>>>>>> main*/
 
 @font-face {
     font-family: 'Angry';
@@ -32,21 +31,18 @@
     src: url(./fonts/Roboto/Roboto-Medium.ttf);
 }
 
-/*<<<<<<< HEAD*/
-
-
 
 .page{
-    margin: 40px;
+    max-width: 1760px;
+    margin: auto;
 }
 
-.card{
-    height: 10%;
-    width: 20%;
-    padding: 2%;
+.catalog__card{
+    /* height: 10%;
+    width: 20%; */
 }
 
-.card-content{
+.catalog__card-content{
     display: flex;
     flex-direction: column;
     border: 1px solid;
@@ -59,43 +55,46 @@
     font-size: 30px;
 }
 
-.info{
-    width: 200px;
-    display: flex;
-    flex-direction: column;
-    padding-left: 12px;
-    font-size: 21px;
-}
 
-.info-right-column{
-    width: 200px;
-    display: flex;
-    flex-direction: column;
-    padding-right: 12px;
+
+.info-right{
     font-size: 22px;
 }
 
-.info__category{
+.info-left{
     color: gray;
-    margin: 10px;
+    font-size: 21px;
 }
 
-.card-info{
+.catalog-title{
+    font-size: 70px;
+    font-family: 'Angry';
+}
+
+
+.catalog__card-info-block{
     display: flex;
-}
-.info-right-column__category{
-    width: 100%;
-    text-align: end;
-    margin: 10px;
+    flex-direction: column;
+    padding-left: 27px;
+    padding-right: 27px;
+    padding-top: 20px;
+    padding-bottom: 31px;
+    gap: 11px;
 }
 
-.button-block{
+.catalog__card-info-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.catalog__button-block{
     display: flex;
     justify-content: center;
-    padding: 20px;
+    margin-bottom: 20px;
 }
 
-button{
+.catalog__button-block button{
     color: red;
     background: none;
     border: none;
@@ -107,25 +106,18 @@ button{
     flex-direction: column;
 }
 
-.CATALOG{
-    font-size: 70px;
-    padding: 1%;
-    font-family: 'Angry';
-}
 
-.card-area{
+.catalog__card-area{
     display: flex;
     font-family: 'Roboto-Regular';
+    gap: 49px;
+    margin-top: 85px;
 }
 
-.red-arrows{
+.catalog__red-arrows{
     margin-left: 50%;
     margin-top: 10%;
 }
-/*=======
-/* common styles 
-
->>>>>>> main*/ 
 
 .auction__heading {
     display: flex;
