@@ -166,36 +166,6 @@ body{
     padding: 0;
     margin: 0;
 }
-* {
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    text-decoration: none;
-}
-
-@font-face {
-    font-family: 'Angry';
-    src: url(./fonts/Angry/Web-PS/Angry.woff2) format('woff2'), /* Modern Browsers */
-        url(./fonts/Angry/Web-PS/Angry.otf) format('opentype'); /* Safari, Android, iOS */
-            font-style: normal;
-    font-weight: normal;
-    text-rendering: optimizeLegibility;
-}
-
-@font-face {
-    font-family: 'Roboto-Regular';
-    src: url(./fonts/Roboto/Roboto-Regular.ttf);
-}
-
-@font-face {
-    font-family: 'Roboto-Bold';
-    src: url(./fonts/Roboto/Roboto-Bold.ttf);
-}
-
-@font-face {
-    font-family: 'Roboto-SemiBold';
-    src: url(./fonts/Roboto/Roboto-Medium.ttf);
-}
 
 .auction__heading {
     display: flex;
